@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# MkDocs build output
+site/
+
+# Tooling and local artifacts
+.codex
+.DS_Store

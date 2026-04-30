@@ -1,0 +1,33 @@
+:root {
+  --terminal-accent: #d79921;
+  --terminal-panel: rgba(60, 56, 54, 0.9);
+  --terminal-panel-border: rgba(251, 241, 199, 0.18);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.hero-card {
+  border: 1px solid var(--terminal-panel-border);
+  background: linear-gradient(180deg, rgba(80, 73, 69, 0.96), var(--terminal-panel));
+  padding: 1rem 1.1rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 16px 36px rgba(0, 0, 0, 0.18);
+}
+
+.hero-card h2 {
+  margin-top: 0;
+}
+
+.md-typeset blockquote {
+  border-left-color: var(--terminal-accent);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: 0.02em;
+}

@@ -1,0 +1,46 @@
+site_name: Wayland AI Docs
+site_description: 基于 MkDocs 与 mkdocs-terminal 主题的文档站点模板
+site_url: https://example.com
+repo_url: https://github.com/your-org/your-repo
+repo_name: your-org/your-repo
+
+theme:
+  name: terminal
+  palette: gruvbox_dark
+  features:
+    - footer.prev_next
+    - navigation.side.indexes
+
+nav:
+  - 首页: index.md
+  - 快速开始:
+      - 概览: guides/index.md
+      - 安装与运行: guides/getting-started.md
+      - 项目结构: guides/structure.md
+  - API:
+      - 总览: api/index.md
+      - 核心能力: api/core.md
+  - 关于:
+      - 项目说明: about/index.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+  - toc:
+      permalink: "#"
+      permalink_title: 锚点链接
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      base_path:
+        - docs
+
+extra_css:
+  - assets/extra.css
