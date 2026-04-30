@@ -14,3 +14,4 @@ site/
 # Tooling and local artifacts
 .codex
 .DS_Store
+.vscode/
