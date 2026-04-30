@@ -1,8 +1,8 @@
 site_name: Wayland AI Docs
 site_description: 基于 MkDocs 与 mkdocs-terminal 主题的文档站点模板
-site_url: https://example.com
-repo_url: https://github.com/your-org/your-repo
-repo_name: your-org/your-repo
+site_url: https://waylandaidoc.github.io/
+repo_url: https://github.com/waylandaidoc/waylandaidoc.github.io
+repo_name: waylandaidoc/waylandaidoc.github.io
 
 theme:
   name: terminal
